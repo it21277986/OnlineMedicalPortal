@@ -1,0 +1,39 @@
+.profile_table{
+    width: 100%;
+}
+.profile_pic{
+    padding-left: 50%;
+    padding-bottom: 50%;
+    width: 150px;
+    height: 150px;
+}
+.content {
+    width: 95%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0,0,0,0.22);
+    transition: 10s;
+    background: #bbded6;
+}
+.content :hover {
+    box-shadow: 0 3px 6px rgba(0,0, 0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+    cursor: pointer;
+}
+.btn2{
+  font-size: 14px;
+  background: #3d3d3d;
+  width: 90px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px;
+}
